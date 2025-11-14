@@ -10,30 +10,30 @@ _**Цель лабораторной работы**: изучение базов
 
 ![screen_1](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_1.png)
 
-2. Далее была выполнена настройка клиента git, а такжесоздан текстовый файл с помощью команды _touch_. После этого создается коммит и выгружается в локальный репозиторий.
+2. Далее была выполнена настройка клиента git, а также создан текстовый файл с помощью команды _touch_. После этого создается коммит и выгружается в локальный репозиторий.
 
 ![screen_2](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_2.png)
 ![screen_3](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_3.png)
 
-3. Следующим шагом необходимо было получить историю операций для каждой из веток.
+3. Следующим шагом необходимо было получить историю операций для каждой из веток. Деляется это с помощью команды _git show *хэш коммита*_.
 
 ![screen_4](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_4.png)
 ![screen_5](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_5.png)
 ![screen_6](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_6.png)
 
-4. Создается новая ветка, просматриваются измененения в ней с помощью команды _git log_. Затем происходит слияние с веткой master с разрешением конфликтов с помощью команды _merge_. Слияние произошло без конфликтов. 
+4. Затем создается новая ветка и просматриваются измененения в ней с помощью команды _git log_. Затем происходит слияние с веткой master с помощью команды _merge_.с разрешением конфликтов Слияние произошло без конфликтов. 
 
 ![screen_7](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_7.png)
 ![screen_8](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_8.png)
 ![screen_9](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_9.png)
 
-5. Чтобы рассмотреть случай, когда ветки конфликтуют, слияние необходимо произвести с форкнутой веткой _branch1_. Конфликт происходит из-за того, что в обеих ветках находится файл _mergefile_, в которых находится разная информация. Чтобы разрешить конфликт, необходимо изменить информацию в файле. Удалить разделители <<, == и >>, а также следующий текст: "информацией противоречащей ветке master".
+5. Чтобы рассмотреть случай, когда ветки конфликтуют, слияние необходимо произвести с форкнутой веткой _branch1_. Конфликт происходит из-за того, что в обеих ветках находится файл _mergefile_, в которм находится разная информация. Чтобы разрешить конфликт, необходимо изменить информацию в файле. Удалить разделители <<, == и >>, а также следующий текст: "информацией противоречащей ветке master". Таким образом получается разрешить конфликт.
 
 ![screen_11](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_11.png)
 ![screen_12](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_12.png)
 ![screen_10](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_10.png)
 
-6. С помощью создания пустого текстового файла фиксируется слияние веток. Также затем удаляются побочные ветки и ещё одним пустым текстовым файлом фиксируются изменения. Затем эти пустые файлы удаляются с помощью команды _git rm_.
+6. С помощью создания пустого текстового файла фиксируется слияние веток. Также удаляются побочные ветки и ещё одним пустым текстовым файлом фиксируются изменения. Затем эти пустые файлы удаляются с помощью команды _git rm_.
 
 ![screen_13](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_13.png)
 ![screen_14](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_14.png)
