@@ -21,7 +21,7 @@ _**Цель лабораторной работы**: изучение базов
 ![screen_5](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_5.png)
 ![screen_6](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_6.png)
 
-4. Затем создается новая ветка и просматриваются измененения в ней с помощью команды _git log_. Затем происходит слияние с веткой master с помощью команды _merge_.с разрешением конфликтов Слияние произошло без конфликтов. 
+4. Затем создается новая ветка и просматриваются измененения в ней с помощью команды _git log_. Далее происходит слияние с веткой master с помощью команды _merge_ с разрешением конфликтов. Слияние произошло без конфликтов. 
 
 ![screen_7](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_7.png)
 ![screen_8](https://github.com/ElenaBeluaeva/LR6/blob/report/screens/screen_8.png)
